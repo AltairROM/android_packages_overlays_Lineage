@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (c) 2020 The Android Open Source Project
 
@@ -15,5 +15,6 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="primary_color_solarized" translatable="false">Solarized</string>
+    <string name="primary_color_dark_gray" translatable="false">Dark Gray</string>
 </resources>
+

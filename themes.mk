@@ -77,6 +77,6 @@ PRODUCT_PACKAGES += \
 # Primary Colors
 PRODUCT_PACKAGES += \
     PrimaryColorBlackOverlay \
-    PrimaryColorDarkBlueOverlay \
+    PrimaryColorDarkGrayOverlay \
     PrimaryColorSolarizedOverlay \
     PrimaryColorTranslucentOverlay
