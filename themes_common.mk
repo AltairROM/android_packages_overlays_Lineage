@@ -20,14 +20,6 @@ DEVICE_PACKAGE_OVERLAYS += packages/overlays/Lineage/overlay/common
 # Allow overlays to be excluded from enforcing RRO
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += packages/overlays/Lineage/overlay/common
 
-# fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,packages/overlays/Lineage/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
-
-# Themes stub
-PRODUCT_PACKAGES += \
-    ThemesStub
-
 # Display Cutout Emulations
 PRODUCT_PACKAGES += \
     DisplayCutoutEmulationCornerOverlay \
@@ -35,10 +27,6 @@ PRODUCT_PACKAGES += \
     DisplayCutoutEmulationNarrowOverlay \
     DisplayCutoutEmulationTallOverlay \
     DisplayCutoutEmulationWideOverlay
-
-# Fonts
-PRODUCT_PACKAGES += \
-    FontNotoSerifSourceOverlay
 
 # Icon Packs
 PRODUCT_PACKAGES += \
