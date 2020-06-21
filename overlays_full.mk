@@ -14,5 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit common themes stuff
-$(call inherit-product, packages/overlays/Lineage/themes_common.mk)
+# Inherit common overlay stuff
+$(call inherit-product, packages/overlays/Lineage/overlays_common.mk)
+
+# Copy fonts
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,packages/overlays/Lineage/prebuilt/system/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+
+# Fonts
+PRODUCT_PACKAGES += \
+    FontNotoSerifSourceOverlay
